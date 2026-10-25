@@ -4,7 +4,7 @@
 
 Gestionar PYMES de albañilería con un software completo, sencillo, seguro y fiable.
 
-## Índice
+## Índice   
 
 - [Requisitos](#requisitos)
 - [Estructura](#estructura)
@@ -45,8 +45,9 @@ PENDIENTE: indica cómo se activa el entorno virtual en tu instalación.
 
 ## Arranque
 
-PENDIENTE: escribe aquí el comando real con el que arrancas Odoo,
-indicando desde qué carpeta se ejecuta.
+Entrar en modo .venv (Necesario para iniciar Odoo) --> source .venv/bin/activate
+Iniciar Odoo --> python -m odoo --addons-path=odoo/addons --http-interface=127.0.0.1 --http-port=8070
+Odoo queda disponible en http://127.0.0.1:8070/ o https://localhost:8070/
 
 ## Comprobaciones
 
